@@ -5,9 +5,8 @@ if __name__ == '__main__':
     dog = Dog("Buddy")
     cat = Cat("Whiskers")
 
-    # Accessing and modifying protected variable via accessor and mutator
-    dog.set_species("Canine")
-    cat.set_species("Feline")
+    dog._species = "Canine"
+
 
     # Calling subclass methods
     print(dog.speak())  # Output: Buddy the Dog says Woof!

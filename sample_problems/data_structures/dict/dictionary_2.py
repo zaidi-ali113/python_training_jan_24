@@ -1,4 +1,7 @@
-#Write a program that accepts a dictionary of people's names and their ages, and returns a new dictionary containing the same data, but with the ages sorted in ascending order.
+#Write a program that accepts a dictionary of people's names and their ages,
+# and returns a new dictionary containing the same data,
+# but with the ages sorted in ascending order.
+
 # Please note: Order of elements added to a dictionary is maintained.
 
 # main.py
