@@ -1,0 +1,28 @@
+1) Create a named tuple Employee with properties name, employee_id, position, salary
+
+2) Implement a stack using the deque collection
+
+3) You are tasked with creating a configuration management program using Python's ChainMap.
+ Your program should allow you to manage configuration settings from multiple sources
+  (e.g., defaults, user-specific)
+   and retrieve values from these sources.
+
+   user settings should always override the default settings
+
+   ```default_settings = {
+        "theme": "light",
+        "font_size": 12,
+        "language": "English"
+      }
+
+      user_settings = {
+        "theme": "dark",
+        "font_size": 18,
+        "language": "English"
+      }
+  ```
+  current_settings = ChainMap(...)
+
+
+
+
