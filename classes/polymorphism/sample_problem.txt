@@ -1,0 +1,21 @@
+Create a Python program that uses polymorphism to calculate shipping costs for different types of packages.
+ Define a base abstract class Package with a method calculate_shipping_cost()
+ and create different subclasses for various package types.
+
+
+ Package
+
+ RegularPackage
+ LargePackage
+ International package
+
+ shipping cost = 5 + 0.5*weight
+                = 20 + 0.5 * weight
+                = 100 + 0.8 * weight
+
+    @abstractmethod
+    calcuate_shipping(package)
+    {
+
+    }
+
